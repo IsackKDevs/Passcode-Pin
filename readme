@@ -1,0 +1,26 @@
+In this certain project I want to create a passcode pin generator, that also allows you to enter in your own number combinations.
+
+This application will take in a pin from a user and then It will check if that list follows the rules of the program, and those rules will be:
+    1. cannot be a 1234
+    2. should not be your birthday or any birth date of your family members
+
+after the program checks these rules it will then either accept the pin or it will decline it
+
+    if accepted:
+        print("Pin Accepter")
+    elif:
+        input("Should I generate one for you? ")
+        if input == 'Yes' or 'y' or 'Y'
+            return random_num()
+        else:
+            break
+    else:
+        print('Not Acceptable. Try another combination')
+
+So if the pin entered does not follow the rules, the program will either ask the user to try another combination, or it will ask the user if it should give them a random generated number
+
+The application will only eccept 4 digits numbers
+so 
+    if len(numbers) != 4:
+        print('Must be four digits')
+        
