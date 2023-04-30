@@ -38,4 +38,4 @@ if result in bad_nums:
     print('Try a different set of numbers')
 else:
     print('Pin Set')
-not_good_number(result)
+
