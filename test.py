@@ -1,17 +1,17 @@
 
 
-# def mark_not_good(numbers, digit):
-#    result = []
-#    for number in numbers:
-#        if str(digit) in str(number):
-#            result.append('not_good')
-#        else:
-#            result.append(number)
-#    return result
+ def mark_not_good(numbers, digit):
+    result = []
+    for number in numbers:
+        if str(digit) in str(number):
+            result.append('not_good')
+        else:
+            result.append(number)
+    return result
 
-# my_numbers = [1234, 5678, 9012, 3456]
-# marked_numbers = mark_not_good(my_numbers, 5)
-# print(marked_numbers)
+ my_numbers = [1234, 5678, 9012, 3456]
+ marked_numbers = mark_not_good(my_numbers, 5)
+ print(marked_numbers)
 
 
 def not_good_number(bad_nums):
