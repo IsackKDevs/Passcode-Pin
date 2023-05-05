@@ -1,6 +1,6 @@
 
 
- def mark_not_good(numbers, digit):
+def mark_not_good(numbers, digit):
     result = []
     for number in numbers:
         if str(digit) in str(number):
