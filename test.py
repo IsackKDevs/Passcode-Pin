@@ -39,3 +39,5 @@ if result in bad_nums:
 else:
     print('Pin Set')
 
+if no good:
+    print('no hoood')
