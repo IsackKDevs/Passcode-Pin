@@ -9,3 +9,4 @@ def good_or_not(pin):
 pin = int(input('Enter a pin: '))
 good_or_not(pin)
 
+Pinset
